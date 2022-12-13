@@ -15,6 +15,13 @@ This project uses:
 ### Install & setup
 
 Clone the project.
+```bash
+1. Install docker-compose[https://docs.docker.com/compose/install/]
+2. Download docker-compose.yaml[https://gist.githubusercontent.com/j-tim/6063f27251419017129cb6ec4ffe22a2/raw/bb94f2828cf0e6662a788bee2bbc2657f71add74/docker-compose.yml]
+3. Run “docker-compose up -d” to install ElasticSearch and Kibana 
+4. Install sample data. We recommend installing “Sample web logs” 
+5. Make sure the data is populated: curl "http://localhost:9200/kibana_sample_data_logs/_search"
+```
 
 Start the backend proxy 
 
