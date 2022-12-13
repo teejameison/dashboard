@@ -20,7 +20,7 @@ Start the backend proxy
 
 ```bash
 cd dashboard/api
-npm run start
+npm install && npm run start
 ```
 
 
@@ -28,5 +28,5 @@ Start the front-end
 
 ```bash
 cd dashboard 
-npm run dev
+npm install && npm run dev
 ```
